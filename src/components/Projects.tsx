@@ -48,9 +48,27 @@ const Projects: React.FC = () => {
       description: 'Designed and developed a fully responsive personal portfolio website showcasing projects, skills, and experience. Implemented dark/light mode, smooth scrolling, and interactive animations for enhanced UX.',
       image: 'https://images.pexels.com/photos/3184300/pexels-photo-3184300.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Vite'],
-      github: 'https://github.com/Patelananya/portfolio',
+      github: 'https://github.com/Patelananya/portfolio2',
       live: 'https://patelananya.github.io/',
       featured: false
+    },
+    {
+      title: 'Digital Complaint Box',
+      description: 'Designed and developed a full-stack web application to manage and track campus facility complaints. Enabled users to raise issues, monitor status updates, and provided admins with role-based access for assignment and resolution. Focused on secure authentication, scalable APIs, and a clean, responsive UI.',
+      image: 'https://images.pexels.com/photos/3184300/pexels-photo-3184300.jpeg?auto=compress&cs=tinysrgb&w=600',
+      technologies: ['React', 'Node.js', 'Express.js', 'MySQL'],
+      github: 'https://github.com/Patelananya/digital-complaint-box-deployment',
+      live: 'https://digital-complaint-box-deployment-yz.vercel.app/',
+      featured: true
+    },
+    {
+      title: 'Company Website with Admin Job Portal',
+      description: 'Built and deployed a full-stack company website featuring a Careers module where users can view job openings and apply online. Developed a secure admin dashboard with JWT-based authentication to manage job postings and review applications, focusing on scalable APIs and cloud-based data persistence.',
+      image: 'https://images.pexels.com/photos/3184300/pexels-photo-3184300.jpeg?auto=compress&cs=tinysrgb&w=600',
+      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB Atlas', 'Mongoose'],
+      github: 'https://github.com/Patelananya',
+      live: 'https://arah-frontend.vercel.app',
+      featured: true
     }
   ];
 
