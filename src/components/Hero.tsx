@@ -4,7 +4,7 @@ import { ChevronDown, Github, Linkedin, Mail, Download } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const [text, setText] = useState('');
-  const fullText = 'Machine Learning Engineer & UI/UX Enthusiast, Data Analyst';
+  const fullText = 'Machine Learning Engineer & Fullstack Developer, Exploring Data Science';
   const [isTyping, setIsTyping] = useState(true);
 
   useEffect(() => {
