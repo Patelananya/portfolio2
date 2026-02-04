@@ -8,7 +8,7 @@ const About: React.FC = () => {
   const skills = [
     'React', 'Node & Express', 'JavaScript', 'Java', 'Python & C', 'Flask',
     'TensorFlow', 'Keras', 'Seaborn',
-    'SQL', 'MySQL',
+    'SQL', 'MySQL', 'PostgreSQL', 'MongoDB',
     'Git/GitHub', 'VS Code', 'Docker (Basics)'
   ];
 
