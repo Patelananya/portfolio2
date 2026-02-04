@@ -8,33 +8,6 @@ const Projects: React.FC = () => {
 
   const projects = [
     {
-      title: 'Handwritten Digit Recognition',
-      description: 'Engineered a robust CNN deep learning model to precisely recognize handwritten digits from the MNIST dataset, achieving 98.6% prediction accuracy through advanced preprocessing, optimized training strategies, and regularization techniques.',
-      image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Python', 'TensorFlow', 'Keras', 'NumPy', 'Matplotlib'],
-      github: 'https://github.com/Patelananya/handwritten-digit-recognition',
-      live: '',
-      featured: true
-    },
-    {
-      title: 'Movie Recommendation System',
-      description: 'Built an end-to-end web application that intelligently recommends movies based on historical popularity trends from 1950–2016. Optimized recommendation speed and enhanced user experience through refined algorithms, data analysis, and system improvements.',
-      image: 'https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Python', 'Flask', 'Machine Learning', 'Seaborn', 'HTML', 'CSS', 'JavaScript'],
-      github: 'https://github.com/Patelananya/movie-recommendation-system',
-      live: '',
-      featured: true
-    },
-    {
-      title: 'Iris Flower Detection System',
-      description: 'Developed a web-based Iris Flower Detection System in 4 weeks. Classified flowers into species using Decision Tree, Logistic Regression, Random Forest, KNN, SVM, and Gradient Boosting models with thorough evaluation metrics.',
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Python', 'Flask', 'Machine Learning', 'Seaborn', 'HTML', 'CSS', 'JavaScript'],
-      github: 'https://github.com/Patelananya/iris-flower-detection',
-      live: '',
-      featured: false
-    },
-    {
       title: 'Chatbot (Hugging Face)',
       description: 'Built a full-stack AI chatbot that performs web searches and provides cited answers using a custom-built retrieval-augmented generation (RAG) pipeline. The project integrates a TinyLlama language model with web-scraping tools (googlesearch-python and newspaper3k) and a Gradio front-end for a live, interactive demo.',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -69,6 +42,33 @@ const Projects: React.FC = () => {
       github: 'https://github.com/Patelananya',
       live: 'https://arah-frontend.vercel.app',
       featured: true
+    },
+    {
+      title: 'Handwritten Digit Recognition',
+      description: 'Engineered a robust CNN deep learning model to precisely recognize handwritten digits from the MNIST dataset, achieving 98.6% prediction accuracy through advanced preprocessing, optimized training strategies, and regularization techniques.',
+      image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600',
+      technologies: ['Python', 'TensorFlow', 'Keras', 'NumPy', 'Matplotlib'],
+      github: 'https://github.com/Patelananya/handwritten-digit-recognition',
+      live: '',
+      featured: true
+    },
+    {
+      title: 'Movie Recommendation System',
+      description: 'Built an end-to-end web application that intelligently recommends movies based on historical popularity trends from 1950–2016. Optimized recommendation speed and enhanced user experience through refined algorithms, data analysis, and system improvements.',
+      image: 'https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=600',
+      technologies: ['Python', 'Flask', 'Machine Learning', 'Seaborn', 'HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/Patelananya/movie-recommendation-system',
+      live: '',
+      featured: true
+    },
+    {
+      title: 'Iris Flower Detection System',
+      description: 'Developed a web-based Iris Flower Detection System in 4 weeks. Classified flowers into species using Decision Tree, Logistic Regression, Random Forest, KNN, SVM, and Gradient Boosting models with thorough evaluation metrics.',
+      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600',
+      technologies: ['Python', 'Flask', 'Machine Learning', 'Seaborn', 'HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/Patelananya/iris-flower-detection',
+      live: '',
+      featured: false
     }
   ];
 
