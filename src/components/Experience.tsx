@@ -7,19 +7,19 @@ const Experience: React.FC = () => {
   const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true });
 
   const experiences = [
-    // {
-    //   type: 'work',
-    //   title: 'Junior python developer',
-    //   company: 'Oasis Info Byte',
-    //   location: 'New Delhi, India',
-    //   period: 'june 2024 - december 2024',
-    //   description: 'Worked in developing a Machine learning model and also cleaned the datasets for easier computations.',
-    //   achievements: [
-    //     'Designed and deployed Python scripts to automate 50+ repetitive workflows, enhancing overall team efficiency by 25%.',
-    //     'Cleaned, analyzed, and visualized datasets of 15,000+ records using pandas, NumPy, and Matplotlib to uncover trends and actionable insights.',
-    //     'laborated with senior developers to debug and test 10+ Python modules, ensuring 100% reliability of deployed scripts'
-    //   ]
-    // },
+    {
+      type: 'work',
+      title: 'Fullstack Developer Intern',
+      company: 'Arah infotech',
+      location: 'Hyderabad, India',
+      period: 'January 2026 - present',
+      description: 'Worked on designing, developing, and deploying full-stack web applications using modern JavaScript technologies. Collaborated with the team to build scalable features, integrate REST APIs, and deliver production-ready solutions.',
+      achievements: [
+        '',
+        '',
+        ''
+      ]
+    },
     {
       type: 'education',
       title: 'Bachelor of Computer Science speliaze in AI&ML',
