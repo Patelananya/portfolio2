@@ -22,7 +22,7 @@ const Skills: React.FC = () => {
     {
       icon: Database,
       title: 'Databases',
-      skills: ['SQL', 'MySQL'],
+      skills: ['PostgrueSQL', 'MySQL', 'MongoDB'],
       color: 'from-purple-500 to-pink-500',
     },
     {
@@ -34,7 +34,7 @@ const Skills: React.FC = () => {
     {
       icon: Globe,
       title: 'Web Development',
-      skills: ['HTML', 'CSS', 'JavaScript'],
+      skills: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js', 'Express.js'],
       color: 'from-indigo-500 to-purple-500',
     },
     {
